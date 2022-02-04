@@ -14,32 +14,32 @@ public class SeleniumTest {
 
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https://www.cydeo.com");
+        driver.get("https://www.google.com");
 
         String pageTitle = driver.getTitle();
         System.out.println("pageTitle = "+ pageTitle);
 
-        if(pageTitle.equals("Cydeo")){
+        if(pageTitle.equals("google")){
             System.out.println("test passed");
         }else{
             System.out.println("test failed");
         }
 
-        Thread.sleep(5000);
+        Thread.sleep(3000);
 
         driver.navigate().back();
 
         driver.navigate().forward();
 
         driver.navigate().refresh();
-/*
-    close a current tab that in focus
+
+   // close a current tab that in focus
         driver.close();
 
-    close all browser windows opened by driver
+   // close all browser windows opened by driver
         driver.quit();
 
-*/
+
 
     }
 }
