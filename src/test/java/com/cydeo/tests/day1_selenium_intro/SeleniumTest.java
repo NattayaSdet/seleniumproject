@@ -39,7 +39,5 @@ public class SeleniumTest {
    // close all browser windows opened by driver
         driver.quit();
 
-
-
     }
 }

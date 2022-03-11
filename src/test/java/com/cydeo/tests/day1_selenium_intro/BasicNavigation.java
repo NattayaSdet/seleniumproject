@@ -51,7 +51,7 @@ public class BasicNavigation {
         //13-use navigate().to():
         driver.navigate().to("https://www.google.com");
 
-        //14-get the current title after getting the google page
+        //14-get the current title after getting the Google page
         currentTitle = driver.getTitle();
 
 

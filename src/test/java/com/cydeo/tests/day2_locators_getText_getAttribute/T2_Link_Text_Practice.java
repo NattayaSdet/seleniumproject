@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class T2_Link_Text_Practice {
     public static void main(String[] args) throws InterruptedException {
-
+        ////TC #3: Back and forth navigation
         //1- Open a Chrome browser
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
@@ -48,21 +48,7 @@ public class T2_Link_Text_Practice {
         }else{
             System.out.println("Title verification FAILED!!");
         }
-
-
-
-
-
-
-
+driver.close();
     }
 }
-/*
-//TC #3: Back and forth navigation
 
-
-
-
-
-
- */
